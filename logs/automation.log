@@ -1,0 +1,65 @@
+2023-07-26 22:01:09,164 - LoginPage - INFO - test_login_page_visibility *** START
+2023-07-26 22:01:11,029 - LoginPage - INFO - logo_top is displayed
+2023-07-26 22:01:11,136 - LoginPage - INFO - logo_right is displayed
+2023-07-26 22:01:11,212 - LoginPage - INFO - login_title is displayed
+2023-07-26 22:01:11,279 - LoginPage - INFO - label_username_xpath is displayed
+2023-07-26 22:01:11,336 - LoginPage - INFO - label_password_xpath is displayed
+2023-07-26 22:01:11,485 - LoginPage - INFO - Username is: Admin
+2023-07-26 22:01:11,577 - LoginPage - INFO - Password is:  admin123
+2023-07-26 22:01:11,629 - LoginPage - INFO - input_username is displayed
+2023-07-26 22:01:11,685 - LoginPage - INFO - input_password is displayed
+2023-07-26 22:01:11,743 - LoginPage - INFO - button_login is displayed
+2023-07-26 22:01:11,813 - LoginPage - INFO - forgot_password is displayed
+2023-07-26 22:01:11,868 - LoginPage - INFO - footer is displayed
+2023-07-26 22:01:11,935 - LoginPage - INFO - orangehrm_copyright is displayed
+2023-07-26 22:01:11,995 - LoginPage - INFO - orangehrm_copyright_1 is displayed
+2023-07-26 22:01:12,059 - LoginPage - INFO - orangehrm_copyright_2 is displayed
+2023-07-26 22:01:33,123 - LoginPage - ERROR - social_network_icons_linkedin is not displayed
+Traceback (most recent call last):
+  File "D:\Projects\Testing\Pytest_Selenium\project-ohrm\page_objects\login_page\login_page_visibility.py", line 207, in login_page_visibility
+    social_network_icons_linkedin = WebDriverWait(self.driver, 20).until(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Testing\Pytest_Selenium\project-ohrm\venvs\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00A4A813+48355]
+	(No symbol) [0x009DC4B1]
+	(No symbol) [0x008E5358]
+	(No symbol) [0x009109A5]
+	(No symbol) [0x00910B3B]
+	(No symbol) [0x0093E232]
+	(No symbol) [0x0092A784]
+	(No symbol) [0x0093C922]
+	(No symbol) [0x0092A536]
+	(No symbol) [0x009082DC]
+	(No symbol) [0x009093DD]
+	GetHandleVerifier [0x00CAAABD+2539405]
+	GetHandleVerifier [0x00CEA78F+2800735]
+	GetHandleVerifier [0x00CE456C+2775612]
+	GetHandleVerifier [0x00AD51E0+616112]
+	(No symbol) [0x009E5F8C]
+	(No symbol) [0x009E2328]
+	(No symbol) [0x009E240B]
+	(No symbol) [0x009D4FF7]
+	BaseThreadInitThunk [0x76F700C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77147B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77147AEE+238]
+
+2023-07-26 22:01:33,532 - LoginPage - INFO - test_login_page_error_messages *** START
+2023-07-26 22:01:34,242 - LoginPage - INFO - login_button is displayed
+2023-07-26 22:01:34,398 - LoginPage - INFO - message_invalid_required_username pass
+2023-07-26 22:01:34,476 - LoginPage - INFO - message_invalid_required_password pass
+2023-07-26 22:01:34,650 - LoginPage - INFO - Input random username:oqlfxmrt
+2023-07-26 22:01:34,800 - LoginPage - INFO - Input random password :1bd5s95b
+2023-07-26 22:01:34,857 - LoginPage - INFO - login_button is displayed
+2023-07-26 22:01:35,687 - LoginPage - INFO - error_message_invalid_credentials is displayed
+2023-07-26 22:01:35,697 - LoginPage - INFO - test_login_page_error_messages *** END
+2023-07-26 22:01:35,711 - LoginPage - INFO - test_login *** START
+2023-07-26 22:01:36,397 - LoginPage - INFO - label_username_xpath is displayed
+2023-07-26 22:01:36,426 - LoginPage - INFO - input_username is displayed
+2023-07-26 22:01:36,546 - LoginPage - INFO - label_password_xpath is displayed
+2023-07-26 22:01:36,573 - LoginPage - INFO - input_password is displayed
+2023-07-26 22:01:36,713 - LoginPage - INFO - login_button is displayed
+2023-07-26 22:01:37,593 - LoginPage - INFO - test_login *** START
