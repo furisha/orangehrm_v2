@@ -2,8 +2,6 @@ pip install selenium
 pip install pytest
 pip install pytest-html
 pip install pytest-xdist
-pip install openpyxl
-pip install allure-pytest
 
 Start test with this command:
 py.test -v -rs --html=Reports/report.html --self-contained-html tests/test_scripts/test_001_login.py
