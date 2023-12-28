@@ -1,5 +1,5 @@
-PyTest - Selenium
-
+# PyTest - Selenium
+## Setup
 pip install selenium
 pip install pytest
 pip install pytest-html
