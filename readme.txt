@@ -1,5 +1,4 @@
-# orangehrm_v2
-PyTest
+PyTest-Selenium
 
 # PyTest - Selenium
 ## Setup
